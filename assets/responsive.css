@@ -1,0 +1,23 @@
+
+@media screen and (max-width:1000px){
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .main .box{
+        height: 40vh;
+    }
+}
+@media screen and (max-width:2000px){
+    .main{
+
+        background-image: url(images/section1\ bg\ img.jpg);
+        height: 95vh;
+        /* background-position: center center; */
+        /* width: 100vw; */
+        background-size: max(1800px, 100vw);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        position: relative; 
+    }
+}

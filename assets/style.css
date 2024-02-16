@@ -1,0 +1,302 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    background-image: url(images/section1\ bg\ img.jpg);
+    height: 95vh;
+    background-position: center center;
+    /* width: 100vw; */
+    background-size: max(1800px, 100vw);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative; 
+}
+.main .box{
+    width: 100%;
+    height: 95vh;
+    background-color: black;
+    opacity: 0.64;
+    position: absolute;
+    top: 0; 
+     
+}
+/* styling of nav */
+.nav{
+    color: white;
+    /* padding: 25px 35px; */
+    padding: 1.95vw 2.73vw;
+    max-width: 77vw;
+    height: 10vh;
+    margin: auto;
+    /* background-color: rgb(76, 39, 145); */
+    display: flex;
+    justify-content: space-between;
+}
+/* styling of logo */
+.nav span>img{
+    /* width: 130px; */
+    width: 10.16vw;
+    position: relative;
+    z-index: 10;
+}
+/* styling of buttons */
+.btn{
+    font-size: 1vw;
+    width: 6vw;
+    border-radius: 5px;
+    /* height: 32px; */
+    height: 2.6vw;
+    line-height: 1;   
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+
+}
+.btn1{
+    background-color:rgba(248, 243, 243, 0.021);
+    color: white;
+    border: 1px solid rgb(210, 205, 205);
+}
+.btn2{
+    background-color: red;
+    border: 2px transparent;
+    color: white;
+}
+/* styling of section1 */
+.section1{
+    color: white;
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    /* padding-top: 50px; */
+    padding-top: 3.91vw;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    opacity: 0.85;
+    line-height: 2;
+    
+} 
+.h1{
+    /* font-size: 48px; */
+    font-size: 3.2vw;
+    font-weight: 800;
+}
+.h2{
+    /* font-size: 34px; */
+    font-size: 2.65vw;
+}
+.h3{
+    /* font-size: 20px; */
+    font-size: 1.56vw;
+}
+/* input box styling */
+.mail{
+    /* margin-top: 15px; */
+    margin-top: 1.57vw;
+    /* margin-bottom: 85px; */
+    margin-bottom: 6.65vw;
+}
+.mail input{
+    line-height: 1.5;
+    width: 25vw;
+    background-color: inherit;
+    font-size: 1.25vw;
+    color: inherit;
+    /* padding: 15px 16px; */
+    padding: 1.17vw 1.25vw;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: 500;
+    background-color: rgb(23, 23, 23, 0.2);
+   
+}
+.mail input::placeholder{
+    color: rgba(188, 186, 186);
+}
+.mail button{
+    font-size: 1.72vw;
+    width: 15vw;
+    font-weight: 500;
+    line-height: 1;
+    border: inherit;
+    /* padding: top, right, bottom, left */
+    /* padding:14px 16px 19px 16px; */
+    padding:1vw 1.25vw 1.48vw 1.25vw;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5px;
+    margin-left: 0.5vw;
+    cursor: pointer;
+}
+.section2{
+    background-color: black;
+    padding: 15vh 0vw;
+    /* height: 80vh; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.text{
+    width: 35vw;
+
+}
+.text .h2{
+    font-size: 3.75vw;
+    font-weight: 800;
+    margin-bottom: 1.17vw;
+}
+.text .para{
+    font-size: 1.875vw;
+    font-weight: 400;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 37vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    /* top: 75px; */
+    top: 5.86vw;
+    /* right: 65px; */
+    right: 5.08vw;
+    width: 27vw;
+}
+
+/* separation line */
+.separation{
+    width: 100%;
+    height: 8px;
+    background-color: rgb(40, 39, 39);
+}
+/* styling of second section */
+
+.sbox{
+    width: 20vw;
+    position: absolute;
+    /* bottom: 30px; */
+    bottom: 2.34vw;
+    /* left: 100px; */
+    left: 7.81vw;
+    z-index: 10;
+    display: flex;
+    border: 2px solid rgb(113, 112, 112);
+    border-radius: 5px;
+    background-color: black;
+    /* padding: 10px; */
+    padding: 0.78vw;
+}
+.sbox img{
+    /* width: 50px; */
+    width: 3.90vw;
+}
+.sbox .text{
+    /* width: 100px; */
+    width: 7.81;
+     padding: 5px 3.52vw 0px 1.56vw;
+   
+}
+
+.sbox .t1{
+    font-weight: 500;
+    /* font-size: 16px; */
+    font-size: 1.25vw;
+    line-height: 1.3;
+}
+.sbox .t2{
+    /* font-size: 14px; */
+    font-size: 1vw ;
+    color: blue;
+}
+
+.downloadicon >img{
+  /* width: 20px; */
+  width: 1.56vw;
+  margin-top: 1.56vw;
+}
+/* styling of third section */
+.third .text{
+   /* margin-right:370px ; */
+   margin-right: 28.91vw ;
+    width: 32vw;
+}
+/* section5 styling */
+.section5{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 1.56vw 0vw;
+}
+.section5 .faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    padding: 1.25vw;
+    background-color: rgb(57, 56, 56);
+    margin: 4px auto;
+    text-align: left;
+    /* font-size: 24px; */
+    font-size: 1.875;
+    font-weight: 400;
+}
+.faq>div{
+    /* font-size: 40px; */
+    font-size: 3.125vw;
+    font-weight: 500;
+}
+.footer{
+    height: 70vh;
+    width: 100%;
+    background-color:black;
+}
+.footer a{
+    color:rgb(169, 168, 168) ;
+    display: block;
+    
+}
+
+.flex{
+    width: 78vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    padding: 50px 0px 10px 50px;
+}
+.flex .flexbox{
+    width: 17vw;
+    /* border: 2px solid white; */
+    margin: 10px 0px;
+}
+.flex>div:first-child{
+    width: 75vw;
+}
+.endflex{
+    width: 78vw;
+}
+.endflex>a{
+    text-decoration: none;
+}
+
+/* media query */
+@media  screen and (max-width: 500px){
+   body{
+    background-color: red;
+   } 
+}
